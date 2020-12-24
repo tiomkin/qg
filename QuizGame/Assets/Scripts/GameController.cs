@@ -61,16 +61,6 @@ public class GameController : MonoBehaviour
         timeToAnswer = currentGameData.timeLimitInSeconds;
         timeRemaining = currentGameData.timeLimitInSeconds;
         questionsAskedIndexes = new List<int>();
-        //Debug.Log("questionsIndexes.Length at start: " + questionsAskedIndexes.Length.ToString());
-        //string str = "";
-        //for (int i = 0; i < questionsAskedIndexes.Length; i++)
-        //{
-        //    str += questionsAskedIndexes[i].ToString() + " | ";
-        //}
-        //Debug.Log("questionsIndexes at start: " + str);
-
-
-        //questionIndex = 0;
         questionsAsked = 0;
         ShowPlayerInfo();
         UpdateRadialProgressBar();
@@ -174,7 +164,6 @@ public class GameController : MonoBehaviour
                 Debug.Log("questionIndex after: " + questionIndex);
             }
         }
-        //Debug.Log("isAsked after IF return");
         return questionIndex;
     }
 
