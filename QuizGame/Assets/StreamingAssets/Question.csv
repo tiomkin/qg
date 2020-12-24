@@ -1,0 +1,31 @@
+id;questionText;answers;answerText;isCorrect;answerText;isCorrect;answerText;isCorrect;category;difficulty
+1;Who is the first President of the United States;;George Washington;true;Abraham Linkoln;false;Tomas Jefferson;false;Politics;2
+2;The capital of Great Britain;;London;true;Manchester;false;Birmingham;false;Geography;1
+3;2+2*2+2*2;;10;true;20;false;12;false;Mathematics;1
+4;United States Declaration of Independence was adopted on;;July 4, 1776;true;July 5, 1776;false;July 4, 1777;false;Dates;1
+5;3+3*2+3*3;;18;true;45;false;21;false;Mathematics;2
+6;The capital of Germany;;Berlin;true;Munich;false;Hamburg;false;Geography;1
+7;The capital of Russia;;Moscow;true;St. Petersburg;false;Novosibirsk;false;Geography;1
+8;The capital of Japan;;Tokyo;true;Osaka;false;Sapporo;false;Geography;1
+9;The capital of France;;Paris;true;Lyon;false;Marseile;false;Geography;1
+10;The capital of Brasil;;Brasilia;true;Rio de Janeiro;false;Sao Paulo;false;Geography;2
+11;The capital of China;;Beijing;true;Shanghai;false;Guangzhou;false;Geography;2
+12;The capital of Austria;;Vienna;true;Graz;false;Linz;false;Geography;1
+13;The capital of Belgium;;Brussels;true;Antwerp;false;Ghent;false;Geography;1
+14;The capital of USA;;Washington;true;New York City;false;Los Angeles;false;Geography;1
+15;The capital of Canada;;Ottawa;true;Toronto;false;Vancouver;false;Geography;2
+16;The capital of Lithuania;;Vilnius;true;Kaunas;false;Klaipeda;false;Geography;2
+17;The capital of Australia;;Canberra;true;Sydney;false;Melbourne;false;Geography;2
+18;The capital of Belarus;;Minsk;true;Brest;false;Grodno;false;Geography;2
+19;The capital of Iceland;;Reykjavik;true;Kopavogur;false;Hafnarfjoerdur;false;Geography;1
+20;The capital of Ireland;;Dublin;true;Belfast;false;Cork;false;Geography;1
+21;Second Chance (1996) is directed by;;Lyman Dayton;true;Robert Paxton;false;Merril B. Jenson;false;Cinema;3
+22;"The word Algebra comes from the arabic ""al-jabr"" lit.";;the restoring of broken parts;true;measurement;false;number;false;Mathematics;3
+23;The word Geometry comes from greek ;;earth measurement;true;the restoring of broken parts;false;number;false;Mathematics;2
+24;The 2nd President of the United States;;John Adams;true;Thomas Jefferson;false;James Madison;false;Politics;3
+25;The 3rd President of the United States;;Thomas Jefferson;true;John Adams;false;James Madison;false;Politics;3
+26;The 4th President of the United States;;James Madison;true;James Monroe;false;John Adams;false;Politics;3
+27;Which number is greater;;9;true;-10;false;0;false;Mathematics;1
+28;Which number is greater;;3,75;true;3 1/2;false;3 2/3;false;Mathematics;2
+29;The Twelve Tables created in ancient Rome in;;451-450 B.C.;true;700 B.C.;false;15 A.D.;false;Dates;3
+30;The Matrix (1999) is directed by;;The Wachowskis;true;Keanu Reeves;false;Don Davis;false;Cinema;2

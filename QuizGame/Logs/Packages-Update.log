@@ -21,3 +21,18 @@ The following packages were added:
 The following packages were updated:
   com.unity.mobile.android-logcat from version 1.1.1 to 1.2.0
   com.unity.test-framework from version 1.1.16 to 1.1.18
+
+=== Thu Dec 24 14:18:44 2020
+
+Packages were changed.
+Update Mode: resetToDefaultDependencies
+
+The following packages were removed:
+  com.unity.2d.animation@3.2.5
+  com.unity.2d.pixel-perfect@2.0.4
+  com.unity.2d.psdimporter@2.1.6
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.spriteshape@3.0.14
+  com.unity.2d.tilemap@1.0.0
+  com.unity.mobile.android-logcat@1.2.0
+  com.unity.mobile.notifications@1.0.3

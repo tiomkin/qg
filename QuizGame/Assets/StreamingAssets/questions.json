@@ -1,0 +1,47 @@
+{"questions":[{
+"id":1,
+"questionText":"Who is the first President of the United States",
+"answers":[
+{"answerText":"George Washington","isCorrect":true},
+{"answerText":"Avraam Linkoln","isCorrect":false},
+{"answerText":"Tomas Jefferson","isCorrect":false}],
+"category":"Politics",
+"difficulty":2  },
+{
+"id":2,
+"questionText":"The capital of Great Britain",
+"answers":[
+{"answerText":"London","isCorrect":true},
+{"answerText":"Oslo","isCorrect":false},
+{"answerText":"Westham","isCorrect":false}],
+"category":"Geography",
+"difficulty":1  },
+{
+"id":3,
+"questionText":"2+2*2+2*2",
+"answers":[
+{"answerText":"10","isCorrect":true},
+{"answerText":"20","isCorrect":false},
+{"answerText":"12","isCorrect":false}],
+"category":"Mathematics",
+"difficulty":1  },
+{
+"id":4,
+"questionText":"United States Declaration of Independence was adopted on",
+"answers":[
+{"answerText":"July 4, 1776","isCorrect":true},
+{"answerText":"July 5, 1776","isCorrect":false},
+{"answerText":"July 4, 1777","isCorrect":false}],
+"category":"Dates",
+"difficulty":1  },
+{
+"id":5,
+"questionText":"3+3*2+3*3",
+"answers":[
+{"answerText":"18","isCorrect":true},
+{"answerText":"45","isCorrect":false},
+{"answerText":"21","isCorrect":false}],
+"category":"Mathematics",
+"difficulty":2  }
+]
+}
