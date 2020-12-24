@@ -134,8 +134,9 @@ public class GameController : MonoBehaviour
             }
             else
             {
-                questionsAsked = 0;
-                questionsAskedIndexes = new List<int>();
+                questionsAskedIndexes.RemoveAt(0);
+                questionsAskedIndexes.Add(questionIndex);
+                questionsAsked--;
             }
             CreateAnswerButtons(questionData);
         }
