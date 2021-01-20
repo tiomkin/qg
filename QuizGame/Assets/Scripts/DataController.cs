@@ -49,10 +49,17 @@ public class DataController : MonoBehaviour
         playerInfo.playerXP = info.playerXP;
         playerInfo.coins = info.coins;
         playerInfo.lives = info.lives;
-        playerInfo.hint1 = info.hint1;
-        playerInfo.hint2 = info.hint2;
-        playerInfo.hint3 = info.hint3;
+        playerInfo.hintPlayersHelp = info.hintPlayersHelp;
+        playerInfo.hintDeleteWrong = info.hintDeleteWrong;
+        playerInfo.hintAddTime = info.hintAddTime;
         SavePlayerInfo();
+    }
+
+    public void SubmitGameData(Question[] questions)
+    {
+        //Add variables
+        allGameData.questions = questions;
+        SaveGameData();
     }
 
     private void LoadPlayerInfo()
@@ -68,9 +75,9 @@ public class DataController : MonoBehaviour
             playerInfo.playerXP = loadedPlayerInfo.playerXP;
             playerInfo.coins = loadedPlayerInfo.coins;
             playerInfo.lives = loadedPlayerInfo.lives;
-            playerInfo.hint1 = loadedPlayerInfo.hint1;
-            playerInfo.hint2 = loadedPlayerInfo.hint2;
-            playerInfo.hint3 = loadedPlayerInfo.hint3;
+            playerInfo.hintPlayersHelp = loadedPlayerInfo.hintPlayersHelp;
+            playerInfo.hintDeleteWrong = loadedPlayerInfo.hintDeleteWrong;
+            playerInfo.hintAddTime = loadedPlayerInfo.hintAddTime;
 
         }
         else
@@ -102,6 +109,7 @@ public class DataController : MonoBehaviour
 
             allGameData.timeLimitInSeconds = loadedData.timeLimitInSeconds;
             allGameData.xpForCorrectAnswer = loadedData.xpForCorrectAnswer;
+            allGameData.coinsForCorrectAnswer = loadedData.coinsForCorrectAnswer;
             allGameData.targetXPToGetLevel = loadedData.targetXPToGetLevel;
             allGameData.questions = loadedData.questions;
         }
@@ -112,6 +120,13 @@ public class DataController : MonoBehaviour
         //LoadRandomQuestions();
 
 
+    }
+
+    private void SaveGameData()
+    {
+        string dataAsJson = JsonUtility.ToJson(allGameData);
+        string filePath = Path.Combine(Application.streamingAssetsPath, gameDataFileName);
+        File.WriteAllText(filePath, dataAsJson); ;
     }
 
     //private void LoadGameSettings()
@@ -145,7 +160,7 @@ public class DataController : MonoBehaviour
     //        question.questionText = row["questionText"].ToString();
     //        //question.correctAnswer = correctAnswerNum;
     //        question.questionCategory = row["category"].ToString();
-            
+
     //        for (int i = 0; i <= 2; i++)
     //        {
     //            answer = new Answer();

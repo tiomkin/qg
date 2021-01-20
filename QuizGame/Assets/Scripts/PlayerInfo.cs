@@ -10,7 +10,7 @@ public class PlayerInfo
     public int level;
     public int coins;
     public int lives;
-    public int hint1;
-    public int hint2;
-    public int hint3;
+    public int hintPlayersHelp;
+    public int hintDeleteWrong;
+    public int hintAddTime;
 }

@@ -8,6 +8,7 @@ public class GameData
     //public Level[] allLevelData;
     public int timeLimitInSeconds;
     public int xpForCorrectAnswer;
+    public int coinsForCorrectAnswer;
     public int[] targetXPToGetLevel;
     public Question[] questions;
 }

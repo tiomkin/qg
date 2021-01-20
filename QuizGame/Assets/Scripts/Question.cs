@@ -10,4 +10,5 @@ public class Question
     public Answer[] answers;
     public string questionCategory;
     public int difficulty;
+    public int timesAsked;
 }

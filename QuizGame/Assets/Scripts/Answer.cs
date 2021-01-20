@@ -8,4 +8,5 @@ public class Answer
     public string answerText;
     //public int correctAnswer;
     public bool isCorrect;
+    public int timesAnswered;
 }

@@ -1,0 +1,511 @@
+{"questions":[ {
+"id":1,
+"questionText":"Who is the first President of the United States",
+
+"answers":[
+{"answerText":"George Washington","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Abraham Linkoln","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Tomas Jefferson","isCorrect":false,"timesAnswered":0}],
+
+"category":"Politics",
+
+"difficulty":2,
+
+"timesAsked":0,
+ },
+ {
+"id":2,
+"questionText":"The capital of Great Britain",
+
+"answers":[
+{"answerText":"London","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Manchester","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Birmingham","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":3,
+"questionText":"2+2*2+2*2",
+
+"answers":[
+{"answerText":"10","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"20","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"12","isCorrect":false,"timesAnswered":0}],
+
+"category":"Mathematics",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":4,
+"questionText":"United States Declaration of Independence was adopted on",
+
+"answers":[
+{"answerText":"July 4, 1776","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"July 5, 1776","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"July 4, 1777","isCorrect":false,"timesAnswered":0}],
+
+"category":"Dates",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":5,
+"questionText":"3+3*2+3*3",
+
+"answers":[
+{"answerText":"18","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"45","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"21","isCorrect":false,"timesAnswered":0}],
+
+"category":"Mathematics",
+
+"difficulty":2,
+
+"timesAsked":0,
+ },
+ {
+"id":6,
+"questionText":"The capital of Germany",
+
+"answers":[
+{"answerText":"Berlin","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Munich","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Hamburg","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":7,
+"questionText":"The capital of Russia",
+
+"answers":[
+{"answerText":"Moscow","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"St. Petersburg","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Novosibirsk","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":8,
+"questionText":"The capital of Japan",
+
+"answers":[
+{"answerText":"Tokyo","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Osaka","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Sapporo","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":9,
+"questionText":"The capital of France",
+
+"answers":[
+{"answerText":"Paris","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Lyon","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Marseile","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":10,
+"questionText":"The capital of Brasil",
+
+"answers":[
+{"answerText":"Brasilia","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Rio de Janeiro","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Sao Paulo","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":2,
+
+"timesAsked":0,
+ },
+ {
+"id":11,
+"questionText":"The capital of China",
+
+"answers":[
+{"answerText":"Beijing","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Shanghai","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Guangzhou","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":2,
+
+"timesAsked":0,
+ },
+ {
+"id":12,
+"questionText":"The capital of Austria",
+
+"answers":[
+{"answerText":"Vienna","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Graz","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Linz","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":13,
+"questionText":"The capital of Belgium",
+
+"answers":[
+{"answerText":"Brussels","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Antwerp","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Ghent","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":14,
+"questionText":"The capital of USA",
+
+"answers":[
+{"answerText":"Washington","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"New York City","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Los Angeles","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":15,
+"questionText":"The capital of Canada",
+
+"answers":[
+{"answerText":"Ottawa","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Toronto","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Vancouver","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":2,
+
+"timesAsked":0,
+ },
+ {
+"id":16,
+"questionText":"The capital of Lithuania",
+
+"answers":[
+{"answerText":"Vilnius","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Kaunas","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Klaipeda","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":2,
+
+"timesAsked":0,
+ },
+ {
+"id":17,
+"questionText":"The capital of Australia",
+
+"answers":[
+{"answerText":"Canberra","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Sydney","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Melbourne","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":2,
+
+"timesAsked":0,
+ },
+ {
+"id":18,
+"questionText":"The capital of Belarus",
+
+"answers":[
+{"answerText":"Minsk","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Brest","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Grodno","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":2,
+
+"timesAsked":0,
+ },
+ {
+"id":19,
+"questionText":"The capital of Iceland",
+
+"answers":[
+{"answerText":"Reykjavik","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Kopavogur","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Hafnarfjoerdur","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":20,
+"questionText":"The capital of Ireland",
+
+"answers":[
+{"answerText":"Dublin","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Belfast","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Cork","isCorrect":false,"timesAnswered":0}],
+
+"category":"Geography",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":21,
+"questionText":"Second Chance (1996) is directed by",
+
+"answers":[
+{"answerText":"Lyman Dayton","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Robert Paxton","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Merril B. Jenson","isCorrect":false,"timesAnswered":0}],
+
+"category":"Cinema",
+
+"difficulty":3,
+
+"timesAsked":0,
+ },
+ {
+"id":22,
+"questionText":"The word�Algebra�comes from the�arabic \"al-jabr\" lit.",
+
+"answers":[
+{"answerText":"the restoring of broken parts","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"measurement","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"number","isCorrect":false,"timesAnswered":0}],
+
+"category":"Mathematics",
+
+"difficulty":3,
+
+"timesAsked":0,
+ },
+ {
+"id":23,
+"questionText":"The word Geometry comes from greek ",
+
+"answers":[
+{"answerText":"earth measurement","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"the restoring of broken parts","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"number","isCorrect":false,"timesAnswered":0}],
+
+"category":"Mathematics",
+
+"difficulty":2,
+
+"timesAsked":0,
+ },
+ {
+"id":24,
+"questionText":"The 2nd President of the United States",
+
+"answers":[
+{"answerText":"John Adams","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Thomas Jefferson","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"James Madison","isCorrect":false,"timesAnswered":0}],
+
+"category":"Politics",
+
+"difficulty":3,
+
+"timesAsked":0,
+ },
+ {
+"id":25,
+"questionText":"The 3rd President of the United States",
+
+"answers":[
+{"answerText":"Thomas Jefferson","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"John Adams","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"James Madison","isCorrect":false,"timesAnswered":0}],
+
+"category":"Politics",
+
+"difficulty":3,
+
+"timesAsked":0,
+ },
+ {
+"id":26,
+"questionText":"The 4th President of the United States",
+
+"answers":[
+{"answerText":"James Madison","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"James Monroe","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"John Adams","isCorrect":false,"timesAnswered":0}],
+
+"category":"Politics",
+
+"difficulty":3,
+
+"timesAsked":0,
+ },
+ {
+"id":27,
+"questionText":"Which number is greater",
+
+"answers":[
+{"answerText":"9","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"-10","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"0","isCorrect":false,"timesAnswered":0}],
+
+"category":"Mathematics",
+
+"difficulty":1,
+
+"timesAsked":0,
+ },
+ {
+"id":28,
+"questionText":"Which number is greater",
+
+"answers":[
+{"answerText":"3,75","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"3 1/2","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"3 2/3","isCorrect":false,"timesAnswered":0}],
+
+"category":"Mathematics",
+
+"difficulty":2,
+
+"timesAsked":0,
+ },
+ {
+"id":29,
+"questionText":"The Twelve Tables created in ancient Rome in",
+
+"answers":[
+{"answerText":"451-450 B.C.","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"700 B.C.","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"15 A.D.","isCorrect":false,"timesAnswered":0}],
+
+"category":"Dates",
+
+"difficulty":3,
+
+"timesAsked":0,
+ },
+ {
+"id":30,
+"questionText":"The Matrix (1999) is directed by",
+
+"answers":[
+{"answerText":"The Wachowskis","isCorrect":true,"timesAnswered":0},
+
+{"answerText":"Keanu Reeves","isCorrect":false,"timesAnswered":0},
+
+{"answerText":"Don Davis","isCorrect":false,"timesAnswered":0}],
+
+"category":"Cinema",
+
+"difficulty":2,
+
+"timesAsked":0,
+ }
+]}
