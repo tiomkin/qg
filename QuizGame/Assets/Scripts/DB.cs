@@ -20,17 +20,17 @@ static class DB
     /// то копирует её с исходного apk файла. </summary>
     private static string GetDBPath()
     {
-    #if UNITY_EDITOR
-            return Path.Combine(Application.streamingAssetsPath, fileName);
-    #if UNITY_STANDALONE
-        string filePath = Path.Combine(Application.dataPath, fileName);
-        if(!File.Exists(filePath)) UnpackDatabase(filePath);
-        return filePath;
-    #elif UNITY_ANDROID
+    //#if UNITY_EDITOR
+    //        return Path.Combine(Application.streamingAssetsPath, fileName);
+    //#if UNITY_STANDALONE
+    //    string filePath = Path.Combine(Application.dataPath, fileName);
+    //    if(!File.Exists(filePath)) UnpackDatabase(filePath);
+    //    return filePath;
+    //#elif UNITY_ANDROID
             string filePath = Path.Combine(Application.persistentDataPath, fileName);
             if (!File.Exists(filePath)) UnpackDatabase(filePath);
             return filePath;
-    #endif
+    //#endif
     }
 
     /// <summary> Распаковывает базу данных в указанный путь. </summary>
@@ -103,4 +103,4 @@ static class DB
 }
 
 
-#endif
+//#endif
